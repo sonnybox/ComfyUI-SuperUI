@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-superui"
+description = "Frontend nodes and UI tweaks by SuperCC."
+version = "0.1.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/sonnybox/ComfyUI-SuperUI"
+
+[tool.comfy]
+PublisherId = "sonnybox"
+DisplayName = "ComfyUI-SuperUI"
