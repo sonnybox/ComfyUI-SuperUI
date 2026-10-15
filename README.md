@@ -9,6 +9,8 @@ Frontend focused opinionated nodes for ComfyUI.
 A multiline text node with comments and dynamic prompts highlights as you
 type with seed support.
 
+![The Dynamic Text Entry is shown highlighting comments and nested {a|b} groups, with the parsed text shown in a Preview as Text node](images/dynamic_text_entry.png)
+
 - `// line` and `/* block */` comments are supported in native text encoder textareas but are missing highlighting.
 - `{red|green|blue}` is an example of a dynamic prompt. Normally in ComfyUI it picks one option at random but we can
   set the seed to fix if we need. Choices can nest, and you can use back slashes to escape curly braces if you need.
